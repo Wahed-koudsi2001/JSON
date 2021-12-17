@@ -39,7 +39,7 @@ function updateCartInfo() {
 
 // load product items content form JSON file
 function loadJSON() {
-    fetch('furniture.json')
+    fetch('https://wahed-koudsi2001.github.io/JSON/JS/furniture.json')
         .then(response => response.json())
         .then(data => {
             let html = '';
